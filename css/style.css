@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* ######### header ######### */
+.header {
+
+  background: url("../images/header-bg.jpg") no-repeat fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+
+}
+
+.header-iphone img {
+  width: 100%;
+}
+
+.header-overlay {
+  background-color: rgba(31,31,31, 0.75);
+}
+
+.header {
+  color: #fff;
+}
+.header-text h1 {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 45px;
+  padding-top: 35px;
+  text-transform: uppercase;
+}
+.header-text p {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.header-btns {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.header-btns .btn,
+.header-btns .btn:focus,
+.header-btns .btn:active,
+.header-btns .btn:visited
+{
+  background: transparent;
+  font-size: 19px;
+  text-transform: uppercase;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+}
+.header-btns .btn:hover {
+  color: #fff;
+}
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+
+  border-color: #129CF3;
+  border-radius: 3px;
+  padding: 10 30;
+}
+.btn-download:hover {
+  background-color: #129CF3;
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited
+{
+  color: #A9ADB0;
+  margin-left: 20px;
+  font-weight: 500px;
+}
+n
+.logo {
+  padding-bottom: 50px;
+}
