@@ -67,3 +67,21 @@ $(document).ready(function(){
     });
   });
 });
+
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 292.5,
+    auto: true,
+    minSlides: 1,
+    maxSlides: 3,
+    SlideMargin: 50
+  });
+
+
+  $('.counter-number').counterUp({
+      delay: 10,
+      time: 1000
+  });
+
+});
