@@ -85,3 +85,9 @@ $(document).ready(function(){
   });
 
 });
+
+
+//For animation with woo and animate.css
+$(document).ready(function(){
+  new WOW().init();
+});

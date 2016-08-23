@@ -16,6 +16,7 @@
       <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
     </head>
     <body>
       <header class="header"id="home">
@@ -71,8 +72,8 @@
                   <p>Built with great love!</p>
                 </div>
                 <div class="header-btns">
-                  <a class="btn btn-download" href="#">Download</a>
-                  <a class="btn btn-tour" href="#">Take a Tour
+                  <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                  <a class="btn btn-tour wow fadeInRight" href="#">Take a Tour
                     <i class="fa fa-angle-down"></i>
                   </a>
                 </div>
@@ -102,16 +103,18 @@
         <div class="choose-us-wrapper">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 about-iphone">
-                <img src="images/about-iphone.png" alt="about-iphone"/>
-              </div>
               <div class="col-md-6">
+                <div class="about-iphone wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                  <img src="images/about-iphone.png" alt="about-iphone"/>
+                </div>
+              </div>
+              <div class="col-md-6 wow slideInRight" data-wow-duration="1s" data-wow-delay=".5s">
                 <div class="choose-us-title">
                   <h2> Why Choose us? </h2>
                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius.</p>
                 </div>
                 <div class="choose-us-desription">
-                  <div class="choose-us-item">
+                  <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                     <!-- icon -->
                     <div><i class="fa fa-bolt"></i></div>
                     <!-- title & description -->
@@ -119,7 +122,7 @@
                     <p>Lipsum Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius a, cursus sit amet sapien. Donec eu placerat nisi.</p>
                   </div>
 
-                  <div class="choose-us-item">
+                  <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                     <!-- icon -->
                     <div><i class="fa fa-bullhorn"></i></div>
                     <!-- title & description -->
@@ -127,7 +130,7 @@
                     <p>Diso Lipsum Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius a, cursus sit amet sapien. Donec eu placerat nisi.</p>
                   </div>
 
-                  <div class="choose-us-item">
+                  <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                     <!-- icon -->
                     <div><i class="fa fa-flag-o"></i></div>
                     <!-- title & description -->
@@ -145,7 +148,7 @@
         <div class="testimonial-overlay">
           <div class="container">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 wow bounceInDown">
                 <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
                   <!-- indicators-->
@@ -200,7 +203,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <div class="section-title">
+              <div class="section-title wow fadeIn" data-wow-duration="1s">
                 <h2>Features</h2>
                 <p>Sed ut perspiciatis Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.unde omnis iste natus error sit.</p>
               </div>
@@ -211,7 +214,7 @@
         <div class="features-inner-wrapper">
           <div class="container">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
                 <!-- left feature item 01-->
                 <div class="left-feature-item">
                   <div class="left-feature-item-icon">
@@ -250,7 +253,7 @@
 
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
 
                 <!-- righ feature item 01-->
                 <div class="right-feature-item">
@@ -504,5 +507,6 @@
       <script src="js/jquery.bxslider.min.js"></script>
       <script src="js/jquery.waypoints.min.js"></script>
       <script src="js/jquery.counterup.min.js"></script>
+      <script src="js/wow.min.js"></script>
     </body>
 </html>
